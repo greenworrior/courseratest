@@ -1,0 +1,103 @@
+/* ===================================
+
+The main content 
+
+====================================== */
+
+body {
+    background-color: gainsboro;
+}
+
+#h1 { /* "Our Menu"  main headline */
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: brown;
+    font-weight: bolder;
+    font-style: italic;
+    font-size: 50px;
+    text-align: center;
+}
+
+.content { /* the paragraph */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: large;
+    background-color: slategray;
+    color: whitesmoke;
+    border: solid 2px black;
+    margin-top: 50px;
+    height: fit-content;
+    padding: 15px;
+    padding-top: 40px;
+}
+
+#chicken { /* the paragraph header "Chicken" */
+    color: black;
+    background-color: slategray;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-style: italic;
+    font-weight: bold;
+    text-align: center;
+    font-size: 24px;
+    height: fit-content;
+    margin-bottom: -80px;
+}
+/*===================== Header  Nav =====================*/
+
+/* double 'OO' in the word "FOOD" brown color */
+#span { 
+    color: brown;
+}
+
+.navbar-brand {
+    margin-top: -28px;
+}
+
+#header-nav {
+    background-color: slategray;
+    border: solid 4px black;
+    margin-bottom: 60px;
+}
+
+.navbar-brand h1 {
+    color: black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 2.4em;
+    text-transform: uppercase;
+    text-shadow: 1px 1px 1px black;
+}
+
+.navbar-brand a:hover, .navbar-brand a:focus {
+    text-decoration: none;
+}
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+border: 2px solid brown;
+}
+
+#collapsable-nav a {
+font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+font-size: 25px;
+font-style: italic;
+font-weight: 800;
+text-align: center;
+}
+/* nav-bar colors of each item */
+#collapsable-nav #nav1 a {
+    color: brown;
+} 
+#collapsable-nav #nav2 a {
+    color: purple;
+}
+#collapsable-nav #nav3 a {
+    color: crimson;
+}
+/* the background of the chicken navbar when its active */
+.navbar-default .navbar-nav>.active>a {
+    background-color: lemonchiffon;
+}
+
+/* Media Queries */
+@media (max-width: 776px) {
+    .navbar-brand {
+        margin-top: -30px;
+    }
+}
